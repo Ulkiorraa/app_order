@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Character 1" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Character 2" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Character 3" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Character 4" />
+
+    <Button
+        android:id="@+id/btnOrdemLida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordem Lida" />
+
+    <Button
+        android:id="@+id/btnOrdemCrescente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordem Crescente" />
+
+    <Button
+        android:id="@+id/btnOrdemDecrescente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordem Decrescente" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+</LinearLayout>
